@@ -5,7 +5,7 @@ from tkinter import Tk, filedialog
 # جلوگیری از نمایش پنجره اصلی Tkinter
 Tk().withdraw()
 
-# انتخاب فایل تصویر
+# Choose image file
 file_path = filedialog.askopenfilename(
     title="Select an Image",
     filetypes=[("Image Files", "*.jpg;*.jpeg;*.png;*.bmp;*.tiff;*.webp")],
